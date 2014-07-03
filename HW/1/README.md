@@ -3,19 +3,19 @@
 ##Instructions
 Edit this document and answer the questions in the sections surrounded by ```.
 
-There are **24** marks available and are awarded grades as follows:
+There are 30 marks available and are awarded grades as follows:
 
 |Score|Grade|
 |-----|-----|
-|<3|U|
-|5+|G|
-|7+|F|
-|9+|E|
-|11+|D|
-|13+|C|
-|15+|B|
-|17+|A|
-|19+|A*|
+|<6|U|
+|6+|G|
+|9+|F|
+|12+|E|
+|15+|D|
+|18+|C|
+|21+|B|
+|24+|A|
+|27+|A*|
 
 
 ##Data Representation
@@ -23,15 +23,15 @@ There are **24** marks available and are awarded grades as follows:
 ###1 - Why do we represent data using binary when using computers *(1 mark)*
 
 ```
-answer here
+Because at the basic level a computer is only a series of switches that are either on or off, 1's and 0's
 ```
 ###2 - How would we represent the number 147 in binary? *(1 mark)*
 ```
-answer here
+10010011
 ```
 ###3 - Can you convert the hexadecimal number **b5** to denary, there is a mark for you working. *(2 marks)*
 ```
-answer here
+181
 ```
 ###4 - Here is a function written is **pseudocode**.
 ```
@@ -47,12 +47,12 @@ ENDFUNCTION
 
 (a) What type of data is **users**? **(1 mark)**
 ```
-answer here
+String
 ```
 
 (b) What type of data is returned by this function? **(1 mark)**
 ```
-answer here
+Boolean
 ```
 
 ##Errors
@@ -69,22 +69,23 @@ line7:		OUTPT mean
 
 (a) On which line is there a **syntax** error? **(1 mark)**
 ```
-answer here
+7, output spelt incorrectly
 ```
 
 (b) What is meant by a **syntax** error? **(1 mark)**
 ```
-answer here
+A mistake made by the programmer e.g misspelt word
 ```
 
 (c) Identify a logical error in the program and suggest how this might be fixed. **(2 marks)**
 ```
-answer here
+Where the program runs but it dosent do what you wanted it to do
 ```
 
 (d) Describe and give an example of the 3rd kind of programming error. **(2 marks)**
 ```
-answer here
+Run-time errors are errors that occur while your program runs. These typically occur when your program attempts an operation that is impossible to carry out. An example of this is dividing a number by 0.
+
 ```
 
 ##Algortithms
@@ -98,27 +99,24 @@ answer here
 
 **Bus Topology (6 marks)**
 ```
-Describe:
+Describe: This is where computers, servers and printers are joined to one cable which is called "the bus" and at each end of the cable there are terminators. There are used to stop signals from reflecting down the bus.
 
-Advantages:
+Advantages: Easy to install this.
 
-Disadvantages:
+Disadvantages: All devices can see the data so there are security risks.
 ```
 
 **Ring Topology (6 marks)**
 ```
-Describe:
+Describe: All devices are connected in a ring and data flows through all the devices in one direction.
 
-Advantages:
+Advantages: No need for a network server.
 
-Disadvantages:
+Disadvantages: If one workstation fails then the rest of the network will get affected.
 ```
 
 **Star Topology (6 marks)**
 ```
-Describe:
+Describe: Each device on the network has its own cable that connects to a switch or a hub.
 
-Advantages:
-
-Disadvantages:
-```
+Advantages: High preformance because no data collisions will occur
